@@ -7,25 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9D3A6532424F3E000EAEB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3A6522424F3E000EAEB50 /* AppDelegate.swift */; };
-		E9D3A6552424F3E000EAEB50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3A6542424F3E000EAEB50 /* SceneDelegate.swift */; };
-		E9D3A6572424F3E000EAEB50 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3A6562424F3E000EAEB50 /* MasterViewController.swift */; };
-		E9D3A6592424F3E000EAEB50 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3A6582424F3E000EAEB50 /* DetailViewController.swift */; };
 		E9D3A65C2424F3E000EAEB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D3A65A2424F3E000EAEB50 /* Main.storyboard */; };
 		E9D3A65E2424F3E300EAEB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D3A65D2424F3E300EAEB50 /* Assets.xcassets */; };
 		E9D3A6612424F3E300EAEB50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D3A65F2424F3E300EAEB50 /* LaunchScreen.storyboard */; };
+		E9D3A6712424F52900EAEB50 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3A66C2424F52900EAEB50 /* DetailViewController.swift */; };
+		E9D3A6722424F52900EAEB50 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3A66D2424F52900EAEB50 /* MasterViewController.swift */; };
+		E9D3A6732424F52900EAEB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3A66F2424F52900EAEB50 /* AppDelegate.swift */; };
+		E9D3A6742424F52900EAEB50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3A6702424F52900EAEB50 /* SceneDelegate.swift */; };
+		E9D3A67924251A8400EAEB50 /* NetService+IPAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3A67824251A8400EAEB50 /* NetService+IPAddress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9D3A64F2424F3E000EAEB50 /* ThermoConfigurator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThermoConfigurator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D3A6522424F3E000EAEB50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9D3A6542424F3E000EAEB50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9D3A6562424F3E000EAEB50 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		E9D3A6582424F3E000EAEB50 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E9D3A65B2424F3E000EAEB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9D3A65D2424F3E300EAEB50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9D3A6602424F3E300EAEB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9D3A6622424F3E300EAEB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D3A6682424F3F300EAEB50 /* ThermoConfigurator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThermoConfigurator.entitlements; sourceTree = "<group>"; };
+		E9D3A66C2424F52900EAEB50 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E9D3A66D2424F52900EAEB50 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		E9D3A66F2424F52900EAEB50 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9D3A6702424F52900EAEB50 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9D3A67824251A8400EAEB50 /* NetService+IPAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetService+IPAddress.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +61,74 @@
 		E9D3A6512424F3E000EAEB50 /* ThermoConfigurator */ = {
 			isa = PBXGroup;
 			children = (
-				E9D3A6522424F3E000EAEB50 /* AppDelegate.swift */,
-				E9D3A6542424F3E000EAEB50 /* SceneDelegate.swift */,
-				E9D3A6562424F3E000EAEB50 /* MasterViewController.swift */,
-				E9D3A6582424F3E000EAEB50 /* DetailViewController.swift */,
-				E9D3A65A2424F3E000EAEB50 /* Main.storyboard */,
-				E9D3A65D2424F3E300EAEB50 /* Assets.xcassets */,
-				E9D3A65F2424F3E300EAEB50 /* LaunchScreen.storyboard */,
-				E9D3A6622424F3E300EAEB50 /* Info.plist */,
+				E9D3A6692424F52900EAEB50 /* Source */,
+				E9D3A6752424F53E00EAEB50 /* Storyboards */,
+				E9D3A6762424F55300EAEB50 /* Resources */,
 			);
 			path = ThermoConfigurator;
+			sourceTree = "<group>";
+		};
+		E9D3A6692424F52900EAEB50 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3A66A2424F52900EAEB50 /* Classes */,
+				E9D3A67724251A5C00EAEB50 /* Extensions */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E9D3A66A2424F52900EAEB50 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3A66E2424F52900EAEB50 /* Application */,
+				E9D3A66B2424F52900EAEB50 /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E9D3A66B2424F52900EAEB50 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3A66D2424F52900EAEB50 /* MasterViewController.swift */,
+				E9D3A66C2424F52900EAEB50 /* DetailViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E9D3A66E2424F52900EAEB50 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3A66F2424F52900EAEB50 /* AppDelegate.swift */,
+				E9D3A6702424F52900EAEB50 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E9D3A6752424F53E00EAEB50 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3A65A2424F3E000EAEB50 /* Main.storyboard */,
+				E9D3A65F2424F3E300EAEB50 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		E9D3A6762424F55300EAEB50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3A6682424F3F300EAEB50 /* ThermoConfigurator.entitlements */,
+				E9D3A65D2424F3E300EAEB50 /* Assets.xcassets */,
+				E9D3A6622424F3E300EAEB50 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E9D3A67724251A5C00EAEB50 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3A67824251A8400EAEB50 /* NetService+IPAddress.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +202,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D3A6532424F3E000EAEB50 /* AppDelegate.swift in Sources */,
-				E9D3A6552424F3E000EAEB50 /* SceneDelegate.swift in Sources */,
-				E9D3A6572424F3E000EAEB50 /* MasterViewController.swift in Sources */,
-				E9D3A6592424F3E000EAEB50 /* DetailViewController.swift in Sources */,
+				E9D3A67924251A8400EAEB50 /* NetService+IPAddress.swift in Sources */,
+				E9D3A6732424F52900EAEB50 /* AppDelegate.swift in Sources */,
+				E9D3A6722424F52900EAEB50 /* MasterViewController.swift in Sources */,
+				E9D3A6712424F52900EAEB50 /* DetailViewController.swift in Sources */,
+				E9D3A6742424F52900EAEB50 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +350,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ThermoConfigurator/ThermoConfigurator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = GQE994U6EG;
 				INFOPLIST_FILE = ThermoConfigurator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,6 +361,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.meandmymac.ThermoConfigurator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,7 +371,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ThermoConfigurator/ThermoConfigurator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = GQE994U6EG;
 				INFOPLIST_FILE = ThermoConfigurator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,6 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.meandmymac.ThermoConfigurator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
