@@ -1,6 +1,0 @@
-[submodule "Libraries/Siesta"]
-	path = Libraries/Siesta
-	url = https://github.com/bustoutsolutions/siesta.git
-[submodule "Libraries/SwiftForms"]
-	path = Libraries/SwiftForms
-	url = https://github.com/ortuman/SwiftForms.git
